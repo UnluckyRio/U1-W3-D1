@@ -304,7 +304,6 @@ console.log("\n");
 const getMovieIndexByYear = function (moviesArray, year) {
   return moviesArray.findIndex((movie) => parseInt(movie.Year) === year);
 };
-// Test ESERCIZIO 15
 console.log("--- ESERCIZIO 15 ---");
 console.log(getMovieIndexByYear(movies, 2005));
 console.log(getMovieIndexByYear(movies, 1984));
